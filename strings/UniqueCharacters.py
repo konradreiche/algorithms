@@ -1,3 +1,5 @@
+import math
+
 '''
 Question
 
@@ -57,8 +59,30 @@ print hasUniqueCharacters('Konrad', 8)
 Solution 4
 
         The required space of solution 3 can be reduced by using a bit vector
-        instead of boolean array.
+        instead of boolean array. The ordinal number of the character is mapped
+        to a power of two which can then be used to perform checks on the bit
+        vector.
 
         Time Complexity O(n)
         Space Complexity O(1)
 '''
+def hasUniqueCharacters2(string, bits):
+
+        maximum = 2 ** bits
+        space = int(math.log(maximum, 2)) - 5
+        bitVectors = [0] * space
+        for i in range(len(string)):
+                value = ord(string[i])
+                selector = int(math.log(value - 1, 2)) - 5
+                bitVector = bitVectors[selector]
+                
+                if (bitVector & (1 << value) > 0):
+                        return False
+
+                bitVectors[selector] |= (1 << value)
+
+        return True
+
+                
+print hasUniqueCharacters2('Hello Berlin!', 8)
+print hasUniqueCharacters2('Konrad', 8)
