@@ -47,3 +47,23 @@ class List(object):
                         else:
                                 prev = current
                                 current = current.next
+
+        def toList(self):
+
+                result = []
+                current = self.head
+                while current is not None:
+                        result.append(current.data)
+                        current = current.next
+
+                return result
+
+        def __str__(self):
+
+                result = ''
+                current = self.head
+                while current is not None:
+                        result += str(current.data) + ' '
+                        current = current.next
+
+                return result
