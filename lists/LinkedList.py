@@ -31,6 +31,8 @@ class List(object):
                         node.next = self.head
                         self.head = node
 
+                return node
+
         def delete(self, data):
 
                 '''Time Complexity O(n)'''
