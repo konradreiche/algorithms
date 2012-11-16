@@ -9,3 +9,27 @@ The questions are chosen or created from the following books:
 * Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. *Introduction to Algorithms*
 
 * Skiena Steven S. *The Algorithm Design Manual*
+
+## Progress
+
+<table>
+  <tr>
+    <th>Type</th><th>Problems</th><th>Solutions</th>
+  </tr>
+  <tr>
+    <td>Arrays</td><td>2</td><td>2</td>
+  </tr>
+  <tr>
+    <td>Lists</td><td>6</td><td>8</td>
+  </tr>
+  <tr>
+    <td>Stacks</td><td>1</td><td>1</td>
+  </tr>
+  <tr>
+    <td>Strings</td><td>6</td><td>14</td>
+  </tr>
+  <tr>
+    <td>Trees</td><td>1</td><td>1</td>
+  </tr>
+</table>
+
