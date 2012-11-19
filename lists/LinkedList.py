@@ -33,6 +33,20 @@ class List(object):
 
                 return node
 
+        def append(self, data):
+
+                '''Time Complexity O(n)'''
+
+                node = Node(data)
+                if self.head is None:
+                        self.head = node
+                        return
+
+                n = self.head
+                while (n.next != None):
+                        n = n.next
+                n.next = node
+
         def delete(self, data):
 
                 '''Time Complexity O(n)'''
