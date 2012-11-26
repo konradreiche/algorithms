@@ -64,6 +64,9 @@ class List(object):
                                 prev = current
                                 current = current.next
 
+        def head(self):
+                return self.head
+
         def toList(self):
 
                 result = []
