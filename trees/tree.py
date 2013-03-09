@@ -26,6 +26,12 @@ class Tree(object):
     def __init__(self):
         self.root = None
 
+    """
+    Question
+
+            Implement preorder traversal.
+    """
+
     def preorder(self, node):
         if not node:
             return
@@ -33,12 +39,24 @@ class Tree(object):
         self.preorder(node.left)
         self.preorder(node.right)
 
+    """
+    Question
+
+            Implement inorder traversal.
+    """
+
     def inorder(self, node):
         if not node:
             return
         self.inorder(node.left)
         # visit(node)
         self.inorder(node.right)
+
+    """
+    Question
+
+            Implement postorder traversal.
+    """
 
     def postorder(self, node):
         if not node:
