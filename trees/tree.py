@@ -39,6 +39,17 @@ class Tree(object):
         self.preorder(node.left)
         self.preorder(node.right)
 
+    def preorder_iterative(self, node):
+        parent_stack = []
+        while not parent_stack or node is not None:
+            if node is not None:
+                parent_stack.append(node)
+                # visit(node)
+                node = node.left
+            else:
+                node = parent_stack.pop()
+                node = node.right
+
     """
     Question
 
