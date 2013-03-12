@@ -29,7 +29,7 @@ The questions are chosen or created from the following books:
     <td>Strings</td><td>6</td><td>14</td>
   </tr>
   <tr>
-    <td>Trees</td><td>4</td><td>4</td>
+    <td>Trees</td><td>4</td><td>7</td>
   </tr>
   <tr>
     <td>Graphs</td><td>3</td><td>3</td>
