@@ -41,7 +41,7 @@ class Tree(object):
 
     def preorder_iterative(self, node):
         parent_stack = []
-        while not parent_stack or node is not None:
+        while parent_stack or node:
             if node is not None:
                 parent_stack.append(node)
                 # visit(node)
@@ -63,6 +63,17 @@ class Tree(object):
         # visit(node)
         self.inorder(node.right)
 
+    def inorder_iterative(self, node):
+        parent_stack = []
+        while parent_stack or node:
+            if node is not None:
+                parent_stack.append(node)
+                node = node.left
+            else:
+                node = parent_stack.pop()
+                # visit(node)
+                node = node.right
+
     """
     Question
 
@@ -75,6 +86,26 @@ class Tree(object):
         self.postorder(node.left)
         self.postorder(node.right)
         # visit(node)
+
+    def postorder_iterative(self, node):
+        if not node:
+            return
+        node_stack = [node]
+        prev = None
+        while node_stack:
+            curr = node_stack[-1]  # stack.peek()
+            if not prev or prev.left == curr or prev.right == curr:
+                if curr.left:
+                    node_stack.append(curr.left)
+                elif curr.right:
+                    node_stack.append(curr.right)
+            elif curr.left == prev:
+                if curr.right:
+                    node_stack.append(curr.right)
+            else:
+                # visit(curr)
+                node_stack.pop()
+            prev = curr
 
     def insert(self, data):
         """Time Complexity O(n)"""
