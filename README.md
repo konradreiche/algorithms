@@ -20,7 +20,7 @@ The questions are chosen or created from the following books:
     <td>Arrays</td><td>2</td><td>2</td>
   </tr>
   <tr>
-    <td>Lists</td><td>8</td><td>10</td>
+    <td>Lists</td><td>9</td><td>11</td>
   </tr>
   <tr>
     <td>Stacks</td><td>1</td><td>1</td>
