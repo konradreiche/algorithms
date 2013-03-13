@@ -37,7 +37,7 @@ The questions are chosen or created from the following books:
     <td>Graphs</td><td>3</td><td>3</td>
   </tr>
   <tr>
-    <td>Sorting</td><td>1</td><td>1</td>
+    <td>Sorting</td><td>2</td><td>2</td>
   </tr>
 </table>
 
