@@ -10,7 +10,7 @@ The questions are chosen or created from the following books:
 
 * Skiena Steven S. *The Algorithm Design Manual*
 
-* John Mongan, Noah Suojanen, and Eric Giguère *Programming Interviews Exposed: Secrets to Landing Your Next Job*
+* John Mongan, Noah Suojanen, and Eric Giguère. *Programming Interviews Exposed: Secrets to Landing Your Next Job*
 
 ## Progress
 
