@@ -10,6 +10,8 @@ The questions are chosen or created from the following books:
 
 * Skiena Steven S. *The Algorithm Design Manual*
 
+* John Mongan, Noah Suojanen, and Eric Giguère *Programming Interviews Exposed: Secrets to Landing Your Next Job*
+
 ## Progress
 
 <table>
@@ -33,6 +35,9 @@ The questions are chosen or created from the following books:
   </tr>
   <tr>
     <td>Graphs</td><td>3</td><td>3</td>
+  </tr>
+  <tr>
+    <td>Sorting</td><td>1</td><td>1</td>
   </tr>
 </table>
 
