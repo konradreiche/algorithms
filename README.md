@@ -19,7 +19,7 @@ The questions are chosen or created from the following books:
     <th>Type</th><th>Problems</th><th>Solutions</th>
   </tr>
   <tr>
-    <td>Arrays</td><td>3</td><td>3</td>
+    <td>Arrays</td><td>4</td><td>4</td>
   </tr>
   <tr>
     <td>Lists</td><td>13</td><td>15</td>
