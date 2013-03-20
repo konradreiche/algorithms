@@ -25,7 +25,7 @@ The questions are chosen or created from the following books:
     <td>Lists</td><td>13</td><td>15</td>
   </tr>
   <tr>
-    <td>Stacks</td><td>1</td><td>1</td>
+    <td>Stacks</td><td>2</td><td>3</td>
   </tr>
   <tr>
     <td>Strings</td><td>6</td><td>14</td>

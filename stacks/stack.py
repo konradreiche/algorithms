@@ -21,6 +21,9 @@ class Stack(object):
        def __init__(self):
                self.top = None
 
+       def empty(self):
+           return self.top == None
+
        def push(self, data):
 
                '''Time Complexity O(1)'''
